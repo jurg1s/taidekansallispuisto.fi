@@ -1,0 +1,214 @@
+.bg-blend {
+  background-image: url(/src/assets/images/small_photo_hanna_kaisa_vainio.jpg);
+  background-size: cover;
+  background-color: #56ab7d;
+  mix-blend-mode: multiply;
+  height: 100vh;
+  width: 100vw;
+  z-index: -99;
+  opacity: 50%;
+  position: fixed;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.container .cont-box {
+  border-radius: 35px;
+  background-color: #ececec;
+  width: 670px;
+  /* height: 670px; */
+  margin: 80px 10px 80px;
+}
+.container .cont-box .inside h1 {
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .container .cont-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .container .cont-box .inside h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 19px;
+
+    /* line-height: 1.5rem; */
+  }
+}
+
+.container .cont-box .inside {
+  margin: 40px;
+}
+
+p {
+  font-size: 19px;
+  line-height: 1.33rem;
+
+  /* line-height: 1.5rem; */
+}
+
+@media only screen and (max-width: 768px) {
+  .container .cont-box .inside {
+    margin: 20px;
+  }
+  p {
+    font-size: 17px;
+    line-height: 1.33rem;
+
+    /* line-height: 1.5rem; */
+  }
+}
+.container .cont-box .inside .wbox {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 30px 0px 0px;
+}
+.container .cont-box .inside .wboxg {
+  background-color: #56ab7d;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 40px 0px 40px;
+}
+
+.news {
+  visibility: visible;
+  background-color: #eef216;
+  width: 46px;
+  height: 130px;
+  margin-left: -46px;
+  margin-top: 80px;
+  position: fixed;
+  border-radius: 7px 0 0 7px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) -10px 0px 5px -11px inset;
+}
+.news p {
+  margin-top: 80px;
+  font-size: 24px;
+  -webkit-transform: rotate(-90deg); /* to support Safari and Android browser */
+  -ms-transform: rotate(-90deg); /* to support IE 9 */
+  transform: rotate(-90deg);
+}
+@media only screen and (max-width: 768px) {
+  .news {
+    display: flex;
+    justify-content: center;
+    margin: -46px;
+    width: 130px;
+    height: 300px;
+    font-size: 24px;
+    transform: rotate(0deg);
+    z-index: -89;
+    position: fixed;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0) 0px -165px 5px -11px inset;
+    background-color: #00000000;
+    background-image: linear-gradient(
+      to bottom,
+      #eef216 30%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+  .news p {
+    margin-top: 0px;
+    font-size: 24px;
+    padding-top: 13px;
+    -webkit-transform: rotate(0deg); /* to support Safari and Android browser */
+    -ms-transform: rotate(0deg); /* to support IE 9 */
+    transform: rotate(0deg);
+  }
+}
+
+.soc-f,
+.soc-i {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(0, 0%, 100%, 0.3);
+  -webkit-backdrop-filter: blur(15px) saturate(86%);
+  backdrop-filter: blur(15px) saturate(86%);
+  width: 46px;
+  height: 50px;
+  margin-left: -46px;
+  margin-top: 220px;
+  position: fixed;
+  border-radius: 7px 0 0 7px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) -10px 0px 5px -11px inset;
+}
+.soc-i {
+  margin-top: 275px;
+}
+
+@media only screen and (max-width: 768px) {
+  .soc-f,
+  .soc-i {
+    margin: -46px;
+    margin-left: 150px;
+    align-items: flex-start;
+    padding: 15px;
+    height: 300px;
+    z-index: -1;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0) 0px -165px 5px -11px inset;
+  }
+  .soc-i {
+    margin-left: 250px;
+  }
+}
+
+.green {
+  color: #56ab7d;
+  margin: 10px 0px 0px;
+}
+
+hr {
+  border: none;
+  margin: 50px 0px 50px;
+  border-top: 1px dashed black;
+}
+@media only screen and (max-width: 768px) {
+  .soc-f2 {
+    background-color: transparent;
+    height: 46px;
+    width: 46px;
+    z-index: 50px;
+    position: absolute;
+    margin: -46px;
+    margin-left: 150px;
+  }
+  .soc-f2 .link{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+  }
+  .soc-i2 {
+    background-color: transparent;
+    height: 46px;
+    width: 46px;
+    z-index: 50px;
+    position: absolute;
+    margin: -46px;
+    margin-left: 250px;
+  }
+  .soc-i2 .link{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+  }
+}
