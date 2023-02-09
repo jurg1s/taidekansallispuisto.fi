@@ -4,36 +4,10 @@ import "./Home.css";
 const Home = () => {
   return (
     <div>
-      <div className="bg-blend"></div>
 
       <div className="container">
         <div className="cont-box ">
-          <div className="news">
-            <p>uutiset&nbsp;&#8628;</p>
-          </div>
-
-          <div className="soc-f">
-            <a href="https://www.facebook.com/taidekansallispuisto">
-              <img src="/images/icons/icon-facebook.svg" alt="facebook" />
-            </a>
-          </div>
-
-          <div className="soc-f2">
-            <a href="https://www.facebook.com/taidekansallispuisto">
-              <div className="link"></div>
-            </a>
-          </div>
-
-          <div className="soc-i">
-            <a href="https://www.instagram.com/taidekansallispuisto/">
-              <img src="/images/icons/icon-instagram.svg" alt="instagram" />
-            </a>
-          </div>
-          <div className="soc-i2">
-            <a href="https://www.instagram.com/taidekansallispuisto/">
-              <div className="link"></div>
-            </a>
-          </div>
+          
 
           <div className="inside ">
             <h1>Vaara-Kainuun taidekansallispuisto</h1>
