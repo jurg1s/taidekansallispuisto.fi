@@ -66,8 +66,19 @@
 
 @media only screen and (max-width: 768px) {
     .soc-f,
-    .soc-i,
-    .news {
-    visibility: hidden;
+    .soc-i
+     {
+      border-radius: 7px 7px 0 0;
+
+      transform: rotate(-90deg);
   }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-box {
+  margin-right: 0px;
+  z-index: -20;
+  margin-top: -68px;
+  transform: rotate(90deg);
+}
 }
