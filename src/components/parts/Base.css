@@ -33,7 +33,7 @@
   margin: 42px;
   visibility: visible;
   background-color: #eef216;
-  height:46px;
+  height: 46px;
   width: 130px;
   cursor: pointer;
   display: flex;
@@ -65,20 +65,28 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .soc-f,
-    .soc-i
-     {
-      border-radius: 7px 7px 0 0;
+  .soc-f,
+  .soc-i {
+    border-radius: 7px 7px 0 0;
 
-      transform: rotate(-90deg);
+    transform: rotate(-90deg);
   }
 }
 
 @media only screen and (max-width: 768px) {
   .nav-box {
-  margin-right: 0px;
-  z-index: -20;
-  margin-top: -68px;
-  transform: rotate(90deg);
-}
+    margin-right: 0px;
+    z-index: -20;
+    margin-top: -68px;
+    transform: rotate(90deg);
+  }
+  @keyframes navanim {
+    0% {
+      margin-top: 0px;
+    }
+  
+    100% {
+      margin-right: 0px;
+    }
+  }
 }
