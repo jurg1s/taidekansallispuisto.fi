@@ -11,12 +11,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  width: 46px;
+  justify-content: space-between;
+  gap: 1px;
+  width: 50px;
   height: 250px;
   animation-name: navanim;
   animation-duration: 0.5s;
-  z-index: -1;
+  z-index: 1;
 }
 
 @keyframes navanim {
@@ -30,17 +31,17 @@
 }
 
 .news {
+  
   margin: 42px;
   visibility: visible;
-  background-color: #eef216;
-  height: 46px;
+  background-color: #d7de66;
+  height: 50px;
   width: 130px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 7px 7px 0 0;
-
   -webkit-transform: rotate(-90deg); /* to support Safari and Android browser */
   -ms-transform: rotate(-90deg); /* to support IE 9 */
   transform: rotate(-90deg);
@@ -48,8 +49,18 @@
 .news p {
   /* margin-left: 46px; */
   font-size: 24px;
+  cursor: pointer;
+  
+
+
 }
 
+.news p.active{
+  background-color: red;
+}
+.soc-f{
+  margin-top: 141px;
+}
 .soc-f,
 .soc-i {
   display: flex;
@@ -58,25 +69,33 @@
   background-color: hsla(0, 0%, 100%, 0.3);
   -webkit-backdrop-filter: blur(15px) saturate(86%);
   backdrop-filter: blur(15px) saturate(86%);
-  width: 46px;
+  width: 50px;
   height: 50px;
   border-radius: 7px 0 0 7px;
   cursor: pointer;
+}
+.soc-f a,
+.soc-i a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
 }
 
 @media only screen and (max-width: 768px) {
   .soc-f,
   .soc-i {
     border-radius: 7px 7px 0 0;
-
     transform: rotate(-90deg);
+
   }
 }
 
 @media only screen and (max-width: 768px) {
   .nav-box {
     margin-right: 0px;
-    z-index: -20;
+    z-index: 1;
     margin-top: -68px;
     transform: rotate(90deg);
   }

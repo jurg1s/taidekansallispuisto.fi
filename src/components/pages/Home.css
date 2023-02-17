@@ -1,14 +1,3 @@
-.bg-blend {
-  background-image: url(/src/assets/images/small_photo_hanna_kaisa_vainio.jpg);
-  background-size: cover;
-  background-color: #56ab7d;
-  mix-blend-mode: multiply;
-  height: 100vh;
-  width: 100vw;
-  z-index: -99;
-  opacity: 50%;
-  position: fixed;
-}
 
 .container {
   display: flex;
@@ -19,10 +8,13 @@
 }
 
 .container .cont-box {
+  z-index: 1;
   border-radius: 35px;
+  background: url(/src/assets/images/bg-clay3.jpg);
   background-color: #ececec;
   width: 670px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;  margin: 80px 10px 80px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+  margin: 80px 10px 80px;
 }
 .container .cont-box .inside h1 {
   font-size: 50px;
@@ -76,14 +68,16 @@ p {
   margin: 30px 0px 0px;
 }
 .container .cont-box .inside .wboxg {
-  background-color: #56ab7d;
+  background-color: #4c4797;
   padding: 20px;
   border-radius: 15px;
   margin: 40px 0px 40px;
 }
-
+.sbox{
+  color: #4c4898;
+}
 .green {
-  color: #56ab7d;
+  color: black;
   margin: 10px 0px 0px;
 }
 

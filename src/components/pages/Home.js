@@ -1,14 +1,25 @@
 import React from "react";
 import "./Home.css";
+import { Link, useMatch, useResolvedPath } from "react-router-dom"
+
 
 const Home = () => {
   return (
     <div>
+      <div className="container-soc">
+        <div className="nav-box ">
+          <div className="news">
+            <Link  to="/Uutiset">
+              <p>uutiset&nbsp;&#8628;</p>
+            </Link >
+            </div>
+            </div>
+            </div>
 
+   
       <div className="container">
         <div className="cont-box ">
-          
-
+  
           <div className="inside ">
             <h1>Vaara-Kainuun taidekansallispuisto</h1>
             <div className="wbox">
