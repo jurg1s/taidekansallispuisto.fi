@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.css";
-import { Link, useMatch, useResolvedPath } from "react-router-dom"
-
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -9,18 +8,22 @@ const Home = () => {
       <div className="container-soc">
         <div className="nav-box ">
           <div className="news">
-            <Link  to="/Uutiset">
+            <Link to="/Uutiset">
               <p>uutiset&nbsp;&#8628;</p>
-            </Link >
-            </div>
-            </div>
-            </div>
+            </Link>
+          </div>
+        </div>
+      </div>
 
-   
       <div className="container">
         <div className="cont-box ">
-  
           <div className="inside ">
+            <div className="heroicon">
+            <img src="/images/logo-black.png" alt="instagram" />
+            
+            </div>
+            <hr />
+
             <h1>Vaara-Kainuun taidekansallispuisto</h1>
             <div className="wbox">
               <p>

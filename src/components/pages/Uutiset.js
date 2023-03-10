@@ -10,7 +10,7 @@ const Uutiset = () => {
         <div className="nav-box ">
           <div className="news">
             <Link  to="/">
-              <p>home&nbsp;&#8628;</p>
+              <p>takaisin&nbsp;&#8628;</p>
             </Link >
             </div>
             </div>

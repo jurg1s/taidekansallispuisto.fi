@@ -1,3 +1,19 @@
+.heroicon {
+  height: 150px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .heroicon {
+    margin: 20px;
+    height: 100px;
+  }
+}
+.heroicon img {
+  height: 100%;
+}
 
 .container {
   display: flex;
@@ -13,7 +29,7 @@
   background: url(/src/assets/images/bg-clay3.jpg);
   background-color: #ececec;
   width: 670px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 80px 10px 80px;
 }
 .container .cont-box .inside h1 {
@@ -73,7 +89,7 @@ p {
   border-radius: 15px;
   margin: 40px 0px 40px;
 }
-.sbox{
+.sbox {
   color: #4c4898;
 }
 .green {
@@ -116,4 +132,3 @@ hr {
     width: 100%;
   }
 }
-
