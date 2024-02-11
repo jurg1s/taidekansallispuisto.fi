@@ -10,8 +10,10 @@
   font-style: normal;
 }
 
+
+
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   padding: 0;
   margin: 0;
   font-family: MADSansFillBold;
@@ -20,17 +22,19 @@
   font-feature-settings: "ss01", "ss02";
 }
 a{
-  color: black;
+  color: #0c0a09;
 }
 
 a:link {
-  text-decoration: none;
+  text-decoration:  underline;
+  text-underline-offset: 2px;
 }
 a:visited {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: none;
+  text-underline-offset: auto;
+  text-decoration: underline;
 }
 a:active {
   text-decoration: none;
@@ -39,9 +43,7 @@ a:active {
   background-color: black;
   color: white;
 }
-body {
-  /* background-color: #84b69b; */
-}
+
 .bg-blend {
   background-image: url(/src/assets/images/backround2.jpg);
   background-size: cover;

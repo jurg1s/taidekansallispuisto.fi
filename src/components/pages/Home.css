@@ -19,8 +19,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
-  width: 100%;
 }
 
 .container .cont-box {
@@ -28,7 +26,7 @@
   border-radius: 35px;
   background: url(/src/assets/images/bg-clay3.jpg);
   background-color: #ececec;
-  width: 670px;
+  width: 770px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 80px 10px 80px;
 }
@@ -43,10 +41,15 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    
   }
   .container .cont-box .inside h1 {
     font-size: 30px;
   }
+  .container .cont-box .inside h2 {
+    font-size: 17px;
+  }
+
 
   p {
     font-size: 19px;
@@ -56,7 +59,7 @@
 }
 
 .container .cont-box .inside {
-  margin: 40px;
+  padding: 40px;
 }
 
 p {
@@ -68,7 +71,7 @@ p {
 
 @media only screen and (max-width: 768px) {
   .container .cont-box .inside {
-    margin: 20px;
+    padding:20px;
   }
   p {
     font-size: 17px;
@@ -92,7 +95,7 @@ p {
 .sbox {
   color: #4c4898;
 }
-.green {
+.base {
   color: black;
   margin: 10px 0px 0px;
 }
